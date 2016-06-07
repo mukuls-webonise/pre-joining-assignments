@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+        <script type="text/javascript">
+            
+            function init() {
+                document.open();
+                document.write(
+                    `Hello you are using ${navigator.appName}.
+            Your monitor specs : 
+                    height: ${window.screen.availHeight}
+                    width: ${window.screen.availWidth}.
+            This document was written on : ${document.lastModified}`
+                );
+                document.close();
+            }
+            window.onload = init;
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mad Libs</title>
+        <script type="text/javascript">
+            function init() {
+                var name = prompt(`Hello what is your name?`);
+                var words = [];
+                for (var i=0;i<5;i++) {
+                    words[i] = prompt("Give me a word please");
+                }
+                var color = prompt("Please enter a color of your choice, either color name (red, blue cyan) or hex value of a color");
+                document.open();
+                var divs = [];
+                for (var i=0;i<5;i++) {
+                    divs[i] = getDiv(words[i], color);
+                }
+                document.write(`Once there was an agent named ${divs[0]}, ${divs[0]} was in pursuit of ${divs[1]}, ${divs[0]} finally caught ${divs[1]} near ${divs[2]} with the help of ${divs[3]} and ${divs[4]}`);
+                document.close();
+            }
+            
+            function getDiv(word, color) {
+                return `<div style="color:${color};display:inline;">${word}</div>`;
+            }
+        </script>
+    </head>
+    <body onload="init();">
+    </body>
+</html>
