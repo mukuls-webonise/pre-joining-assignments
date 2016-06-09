@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+}
+
+/*Header and menu*/
 .header {
     padding-left: 50px;
     padding-right: 50px;
@@ -7,7 +12,7 @@
 
 .menu {
     position: relative;
-    top:20px;
+    top:23px;
     float: right;
     display: inline;
 }
@@ -21,4 +26,37 @@
 
 .menu a:hover {
     color: #02b8dc;
+}
+
+/*Banner*/
+.banner {
+    background-image: url(images/bannerBg.png);
+    height: 500px;
+}
+
+.banner h1 {
+    margin: 40px;
+    position: relative;
+    top:150px;
+    color : #1f435e;
+    font-size: 32px;
+    float: right;
+}
+
+.formDiv {
+    float: left;
+    position: relative;
+    top:97px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+}
+
+.banner label {
+    font-size: 14px;
+    color : #6d6e71;
 }
