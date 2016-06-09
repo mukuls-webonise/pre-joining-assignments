@@ -167,3 +167,34 @@ body {
     background: none;
     border : 2px solid white;
 }
+
+.footer {
+    background-color: #1c3a50;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.footer ul {
+    padding-top: -10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#second-list {
+    position: relative;
+    top: -25px;
+}
+
+.footer ul li {
+    margin: 8px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+#copyright {
+    margin-left: 140px;
+    font-size: 12px;
+    color: #8e9da8;
+}
