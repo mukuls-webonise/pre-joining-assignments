@@ -1,0 +1,24 @@
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.menu {
+    position: relative;
+    top:20px;
+    float: right;
+    display: inline;
+}
+
+.menu a {
+    margin-right: 28px;
+    font-size: 18px;
+    color: #1c3a50;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #02b8dc;
+}
