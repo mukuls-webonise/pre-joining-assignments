@@ -139,6 +139,133 @@ body {
     margin-top: 15px;
 }
 
+.deals {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: lightgray;
+}
+
+.table1 {
+    margin-top: 5px;
+    margin-bottom: 35px;
+    border-collapse: collapse;
+    width : 100%;
+    table-layout: fixed;
+}
+
+.table1 tr {
+    width : 100%;
+    height: 260px;
+}
+
+.table1 td {
+    height: inherit;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.table1Data {
+    width: inherit;
+    height: inherit;
+    background-color: aquamarine;
+}
+
+.deals h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.deals_inner {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#chart {
+    display: inline-block;
+    width: 90%;
+    height:234px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);  
+}
+
+#chart_table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.red-end {
+    color: orangered;
+}
+
+#chart_table tr {
+    height: auto;
+    width: auto;
+}
+
+#chart_table th {
+    height: auto;
+    width: 100%;
+}
+
+#chart_table td {
+    position: relative;
+    top:-20%;
+    transform: translateY(50%);
+}
+
+.border-row {
+    border-bottom: 1px solid #d0dce5;
+    border-top: 1px solid #d0dce5;
+}
+
+.font-16 {
+    font-size:16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.center_text {
+    text-align:center;
+}
+
+.small_box {
+    position: relative;
+    top:50%;
+    left: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate(-50%, -100%);
+}
+
+#location_box {
+    margin-top: 40px;
+}
+
+#big_box {
+    margin: 20px;
+    width:250px;
+    height:220px;
+}
+
 .joinBanner {
     padding: 10px;
     align-content: center;
